@@ -1,0 +1,532 @@
+@import url(https://fonts.googleapis.com/css?family=Marck+Script:regular);
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+body {
+  width: 950px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+header {
+  background-color: #f0eef1;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.logo img {
+  width: auto;
+ margin: 0 auto;
+ padding-bottom: 20px;
+}
+.title {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: rgba(195, 162, 41, 0.5);
+}
+.frontend {
+  position: absolute;
+  background-color: #2f2e36;
+  width: 600px;
+  height: 50px;
+  right: 0;
+  bottom: 350px;
+  display: flex;
+  align-items: center;
+  
+  padding-left: 10px;
+}
+.frontend p {
+  color: #c3a229;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+.title p {
+  text-align: center;
+  font-size: 30px;
+  white-space: pre-line;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Marck Script", cursive;
+  color: #020202;;
+}
+.title span {
+  font-size: 18px;
+}
+.wrapper-h1 {
+  margin-inline-end: 220px;
+}
+.name-title h1 {
+  display: block;
+  color: #27262e;
+  font-size: 64px;
+  text-align: end;
+  padding-top: 420px;
+  font-family: "Yeseva One", cursive;
+  white-space: pre-line;
+  line-height: 70px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.telImg{
+  width: 70px;
+}
+
+.contacts ,
+.logo {
+  background-color: #27272f;
+}
+.contacts h3 {
+  color: #c3a229;
+}
+.technicalSkills {
+  background-color: #3d4047;
+}
+
+.wrapper-h3 {
+  background-color: #c3a229;
+}
+.skills {
+  text-align: end;
+  background-color: #22222a;
+}
+h3 {
+  font-size: 34px;
+  margin-left: 0px;
+  counter-reset: #49422e;
+  padding-right: 40px;
+}
+.softSkills {
+  background-color: #22222a;
+}
+.wrapper-comtacts{
+  background-color: #27272f;
+}
+.wrapper-comtacts ul{
+ padding-top: 10px;
+ padding-inline-start:0px
+}
+a {
+  text-decoration: none;
+  color: #e6e5e2;
+  font-size: 16px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.inline {
+  height: 5px;
+  background-color: #49422e;
+  
+}
+
+.wrapper-contakt {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px 10px 0;
+}
+.wrapper-contakt img {
+  padding-left: 30px;
+}
+.skills li {
+  font-size: 20px;
+  color: #c3a229;
+  padding: 0px 90px 10px 0;
+  position: relative;
+}
+.skills li::after {
+  content: " ";
+  right: 20px;
+  bottom: 11px;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: solid 5px #c3a229;
+  background-color: #49422e;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.aboutMe {
+  background-color: #f0eef1;
+}
+.aboutMe-title a{
+color: #020202;
+}
+
+.worcMe,
+.courses {
+  font-size: 20px;
+  padding: 70px 70px 0px 30px;
+  position: relative;
+}
+.aboutMe-title{
+  font-size: 20px;
+  padding: 70px 70px 0px 100px;
+  position: relative;
+}
+.name-title{
+  font-size: 30px;
+  padding: 70px 70px 20px 100px;
+  position: relative;
+}
+.block-aboutMe {
+  position: relative;
+}
+.block-aboutMe .frontend {
+  top: 0px;
+}
+
+.worcMe .frontend {
+  top: 0;
+}
+h4 {
+  font-size: 24px;
+  color: #49422e;
+  margin-left: 70px;
+}
+h5 {
+  margin-top: 0px;
+  color: #3d4047;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.worcMe li {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #3d4047;
+  margin-left: 30px;
+}
+.worcMe .inline {
+  background-color: #c3a229;
+  margin-right: 0px;
+  margin-left: 70px;
+  width: 100%;
+}
+
+.courses .frontend {
+  top: 0px;
+}
+.courses {
+  position: relative;
+}
+.courses > p{
+  font-size: 18px;
+  margin-left: 70px;
+}
+.image img {
+  height: 200px;
+}
+.aboutMe-title ul{
+  padding-inline-start: 0px;
+}
+footer {
+  display: block;
+  text-align: center;
+  background-color: #c3a229;
+  height: 50px;
+  font-weight: 800;
+  font-size: 34px;
+}
+
+.myWorks {
+  background-color: #575761;
+}
+
+.myWorks-title {
+  height: 70px;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  color: #575761;
+  background-color: #c3a229;
+  font-weight: 800;
+}
+.myWorks-boks {
+  position: relative;
+  display: grid;
+  grid-template-rows:150px 300px ;
+align-items: center;
+justify-content: center;
+width: 1249px;
+}
+.myWorks-boks img {
+ max-width: 500px;
+ max-height: 300px;
+ 
+}
+.myWorks-boks a{
+  display: flex;
+  align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.myWorks-boks p {
+  font-size: 24px;
+  color: #e6e5e2;
+  padding: 10px;
+  text-align: center;
+}
+.myWorks-title a{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.carousel {
+  position: relative;
+  width: 1250px;
+  background: rgb(34, 34, 42);
+}
+
+.carousel img {
+
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 250px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 34px;
+  line-height: 44px;
+  color: #444;
+  display: block;
+  z-index: 100;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 30px;
+}
+
+.next {
+  right: 30px;
+}
+
+.gallery {
+  
+  overflow: hidden;
+}
+
+.gallery ul {
+  height: 500px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+}
+@media screen and (max-width: 1250px),
+  screen and (max-width: 1250px) and (min-width: 1px){
+    body{
+      width: 1000px;
+    }
+    .about {
+      display: grid;
+      grid-template-columns: 40% 60%;
+    }
+    .frontend{
+      width: 500px;
+    }
+ 
+  .wrapper-h1 {
+    margin-inline-end: 40px;
+  }
+   h1{
+    padding-top: 280px;
+    
+  }
+  .gallery ul {
+    
+  }
+  .carousel{
+    width: 1000px;
+  }
+
+  .myWorks-boks{
+    width: 999px;
+  }
+  }
+
+@media screen and (max-width: 800px),
+  screen and (max-width: 800px) and (min-width: 1px){
+    body{
+      width: 600px;
+    }
+    header {
+      background-color: #f0eef1;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      flex-direction: column;
+    }
+    .logo{
+      width: 100%;
+    }
+    .title {
+      position: initial;
+      padding: 20px;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      background-color: rgba(195, 162, 41, 0.5);
+    }
+    .frontend {
+      position: initial;
+     
+      width: 600px;
+     
+      right: 0;
+    
+      align-items: center;
+      
+      padding-left: 10px;
+    }
+    .wrapper-h1 {
+      margin-inline-end: 0px;
+    }
+    .aboutMe-title, .worcMe, .courses{
+      padding: 0;
+    }
+    h1 {
+      font-size: 34px;
+      text-align: center;
+      padding-top: 10px;
+      line-height: 40px;
+      white-space: inherit;
+    }
+    .aboutMe-title{
+      padding: 80px 20px 20px;
+    }
+   .courses h4:first-of-type{
+      padding-top: 10px;
+    }
+    .frontend h4:first-of-type{
+      padding-top: 10px;
+    }
+    #courses-item{
+      padding-top: 0px;
+    }
+    .block-aboutMe .frontend{
+      position: absolute;
+      top: 0;
+    }
+    .about {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .worcMe .inline {
+      margin-left: 0px;
+    }
+    .contacts .inline{
+      margin-left: 0;
+    }
+    h3{
+      text-align: center;
+    }
+    .wrapper-contakt{
+      padding-right: 120px;
+    }
+    .skills li{
+      margin-right: 120px;
+    }
+    .carousel{
+      width: 600px;
+    }
+    .myWorks-boks{
+      width: 599px;
+    }
+  }
+  @media screen and (max-width: 600px),
+  screen and (max-width: 600px) and (min-width: 1px){
+    body{
+      width: 420px;
+    }
+    h1{
+      font-size: 24px;
+    }
+    .frontend {
+     
+      background-color: #2f2e36;
+      width: 420px;
+      height: 70px;
+      right: 0;
+      bottom: 200px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    .aboutMe-title{
+      font-size: 12px;
+    }
+    .frontend p{
+      font-size: 20px;
+    }
+    h5{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    h3{
+      font-size: 20px;
+      line-height: 40px;
+    }
+    .contacts a{
+      font-size: 14px;
+    }
+    .wrapper-contakt img {
+      max-width: 80%;
+    }
+    .skills li{
+      font-size: 14px;
+      line-height: 30px;
+    }
+    .carousel{
+      width: 420px;
+    }
+    .myWorks-boks{
+      width: 419px;
+      padding: 10px;
+    }
+    .myWorks-boks img {
+      max-width: 400px;
+      max-height: 300px;
+    }
+    .myWorks-boks p{
+     font-size: 14px;
+    }
+    .arrow {
+      top:130px;
+    }
+    .worcMe ul li{
+      font-size: 20px;
+    }
+    h4{
+      font-size: 20px;
+    }
+  }
